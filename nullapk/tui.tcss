@@ -1,0 +1,46 @@
+Screen {
+    align: center middle;
+}
+
+#main {
+    width: 90%;
+    max-width: 90;
+    height: auto;
+    border: round $accent;
+    padding: 1 2;
+}
+
+#title {
+    text-style: bold;
+    color: $accent;
+    content-align: center middle;
+    height: 1;
+    margin-bottom: 1;
+}
+
+.label {
+    color: $text-muted;
+    margin-top: 1;
+}
+
+#download_btn {
+    width: 100%;
+    margin-top: 1;
+    content-align: center middle;
+}
+
+#log {
+    height: 12;
+    margin-top: 1;
+    border: round $primary-darken-1;
+    background: $surface;
+}
+
+LoadingIndicator {
+    height: 1;
+    margin-top: 1;
+}
+
+.hidden {
+    display: none;
+}
