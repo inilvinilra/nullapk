@@ -8,6 +8,8 @@ nullapk
 
 opens an interactive terminal UI: paste a Play Store URL (or a bare package id), hit **Download**, and the APK lands on disk named after its own package id.
 
+![nullapk TUI](assets/screenshot.png)
+
 ## How it works
 
 Google Play normally requires a signed-in account to issue a download. [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore) — an open-source Play Store client — ships with a pool of anonymous Google accounts and a "dispenser" service that hands out short-lived OAuth tokens for them on request, so the app can install things without ever asking you to sign in.
